@@ -1,0 +1,16 @@
+img {
+    margin-left: 2em;
+    max-height: 50px;
+    max-width: 50px;
+    opacity: 0.5;
+}
+
+.navbar {
+    background-color: #adb7d8;
+}
+
+.navbar-brand {
+    color : #0d3255;
+    font-weight: bold;
+    margin-left: 1em;
+}

@@ -1,0 +1,43 @@
+.card {
+    overflow: hidden;
+    text-align: center;
+    padding: 4em;
+  color: #adb7d8;
+}
+
+.content {
+  background-color: #adb7d8;
+}
+
+.category {
+  margin-top: 1rem;
+  color: #081e33;
+}
+
+.card-header {
+  background-color: #8591b9;
+  font-weight: bold;
+  padding-top: 4;
+  color: #0b2f50;
+}
+
+.btn-like:hover {
+  background-color: #20aa27;
+}
+
+.btn-dislike:hover {
+  background-color: #e0312bed;
+}
+
+.btn-del:hover {
+  background-color: #0f58ceed;
+}
+
+.btn-del {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.btn-text {
+  color : #081e33;
+}
