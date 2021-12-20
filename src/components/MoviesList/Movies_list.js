@@ -67,7 +67,6 @@ const MoviesList = () => {
     })
     const endOffset = itemOffset + elem_displayed;
     setCurrent_movies(movies_displayed.slice(itemOffset, endOffset));
-    console.log(elem_displayed);
     setPageCount(Math.ceil(movies_displayed.length / elem_displayed));
   }, [movieList, itemOffset, elem_displayed, filters]);
 
