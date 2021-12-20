@@ -18,8 +18,7 @@ movies$.then(data => {
         title: el.title,
         category: el.category,
         likes: el.likes,
-        dislikes: el.dislikes,
-        image: el.image
+        dislikes: el.dislikes
       },
     }))
     data.forEach(el =>
